@@ -1,0 +1,11 @@
+
+for ((  i = 1 ;  i <= 96;  i++  ))
+do
+	RUNPATH=/home/jason/phonopy/cnt/orig/64/lammps/POSCAR$i
+	EXEPATH=/home/jason/lammps/lammps-10Oct10/src
+	cd $RUNPATH
+	/opt/open-mpi/tcp-gnu41/bin/mpirun -np 1 $EXEPATH/lmp_openmpi < $RUNPATH/in.force
+done
+
+
+
