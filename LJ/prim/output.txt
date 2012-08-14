@@ -1,0 +1,92 @@
+INITIALIZED AND RUNNING 'JOE_SERIAL'.
+
+
+Parsing File 'LD_Input_Ar1.txt' For Input Data...
+
+
+Done reading input file.  Outputing stored data to log file for error checking...
+
+Outputing crystal structure to file 'Structure.xyz'...
+
+
+
+Computing Energies and Forces...
+
+Energy and forces on atom 0 = -2.70527e-20 J, 0 0 0
+
+
+Computing Harmonic Force Constants...
+
+Harmonic force constants for atom 0: N1, N2 = 1, 78
+
+
+Begining Dispersion Relation Calculation.
+
+Dispersion is 100% complete. k* = < 0.499999 0.125 0.624999 >, |k*| = 0.810091
+
+
+Beginning Harmonic Calculation of Frequency.
+
+1% done.  3 of 189 waves calculated.
+3% done.  6 of 189 waves calculated.
+4% done.  9 of 189 waves calculated.
+6% done.  12 of 189 waves calculated.
+7% done.  15 of 189 waves calculated.
+9% done.  18 of 189 waves calculated.
+11% done.  21 of 189 waves calculated.
+12% done.  24 of 189 waves calculated.
+14% done.  27 of 189 waves calculated.
+15% done.  30 of 189 waves calculated.
+17% done.  33 of 189 waves calculated.
+19% done.  36 of 189 waves calculated.
+20% done.  39 of 189 waves calculated.
+22% done.  42 of 189 waves calculated.
+23% done.  45 of 189 waves calculated.
+25% done.  48 of 189 waves calculated.
+26% done.  51 of 189 waves calculated.
+28% done.  54 of 189 waves calculated.
+30% done.  57 of 189 waves calculated.
+31% done.  60 of 189 waves calculated.
+33% done.  63 of 189 waves calculated.
+34% done.  66 of 189 waves calculated.
+36% done.  69 of 189 waves calculated.
+38% done.  72 of 189 waves calculated.
+39% done.  75 of 189 waves calculated.
+41% done.  78 of 189 waves calculated.
+42% done.  81 of 189 waves calculated.
+44% done.  84 of 189 waves calculated.
+46% done.  87 of 189 waves calculated.
+47% done.  90 of 189 waves calculated.
+49% done.  93 of 189 waves calculated.
+50% done.  96 of 189 waves calculated.
+52% done.  99 of 189 waves calculated.
+53% done.  102 of 189 waves calculated.
+55% done.  105 of 189 waves calculated.
+57% done.  108 of 189 waves calculated.
+58% done.  111 of 189 waves calculated.
+60% done.  114 of 189 waves calculated.
+61% done.  117 of 189 waves calculated.
+63% done.  120 of 189 waves calculated.
+65% done.  123 of 189 waves calculated.
+66% done.  126 of 189 waves calculated.
+68% done.  129 of 189 waves calculated.
+69% done.  132 of 189 waves calculated.
+71% done.  135 of 189 waves calculated.
+73% done.  138 of 189 waves calculated.
+74% done.  141 of 189 waves calculated.
+76% done.  144 of 189 waves calculated.
+77% done.  147 of 189 waves calculated.
+79% done.  150 of 189 waves calculated.
+80% done.  153 of 189 waves calculated.
+82% done.  156 of 189 waves calculated.
+84% done.  159 of 189 waves calculated.
+85% done.  162 of 189 waves calculated.
+87% done.  165 of 189 waves calculated.
+88% done.  168 of 189 waves calculated.
+90% done.  171 of 189 waves calculated.
+92% done.  174 of 189 waves calculated.
+93% done.  177 of 189 waves calculated.
+95% done.  180 of 189 waves calculated.
+96% done.  183 of 189 waves calculated.
+98% done.  186 of 189 waves calculated.
+100% done.  189 of 189 waves calculated.

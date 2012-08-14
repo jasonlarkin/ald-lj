@@ -1,0 +1,150 @@
+INITIALIZED AND RUNNING 'JOE_SERIAL'.
+
+
+Parsing File 'LD_Input_Ar1.txt' For Input Data...
+
+WARNING: The 'conductivity' flag is no longer used.  The thermal conductivity is always computed.
+
+Done reading input file.  Outputing stored data to log file for error checking...
+
+VARIABLES
+  $a = 5.27e-10
+
+LATTICE = 3
+  a1 = 2.635e-10 2.635e-10 0
+  a2 = 0 2.635e-10 2.635e-10
+  a3 = 2.635e-10 0 2.635e-10
+  BC1 = 0
+  BC2 = 0
+  BC3 = 0
+  N1  = 5
+  N2  = 5
+  N3  = 5
+  Volume = 3.65908e-29
+  b1 = 1.89753e+09 1.89753e+09 -1.89753e+09
+  b2 = -1.89753e+09 1.89753e+09 1.89753e+09
+  b3 = 1.89753e+09 -1.89753e+09 1.89753e+09
+
+MATERIAL = 1
+  Ar = 6.63e-26
+
+UNIT_CELL = 1
+  Ar  0 0 0
+
+SYMMETRY = 1
+  wave_vector = false
+
+PREPROCESS = true
+  optimization = -99
+  structure    = true
+  energy_force = true
+
+DISPERSION = 1
+  Begin = 1.89753e+09 0 4.74383e+08
+  End = 1.89753e+09 0 4.74383e+08
+
+HARMONIC = true
+  frequency = true
+  velocity  = false
+  evect     = false
+  DOS       = false
+
+ANHARMONIC = 0
+  continue     = 0
+  temperature  = 10
+  fs_guess     = 0.1
+  lw_guess     = 0.035
+
+POSTPROCESS = false
+
+POTENTIAL LJ 1 Ar
+  epsilon = 1.67e-21 J
+  sigma   = 3.4e-10 m
+  cutoff  = 8.5e-10 m
+  Acutoff = 0 m
+
+
+Outputing crystal structure to file 'Structure.xyz'...
+
+
+
+Computing Energies and Forces...
+
+Energy and forces on atom 0 = -2.70527e-20 J, 0 0 0
+
+
+Computing Harmonic Force Constants...
+
+Harmonic force constants for atom 0: N1, N2 = 1, 78
+
+
+Begining Dispersion Relation Calculation.
+
+Dispersion is 100% complete. k* = < 0.499999 0.125 0.624999 >, |k*| = 0.810091
+
+
+Beginning Harmonic Calculation of Frequency.
+
+Harmonic Calculation is 1 % Complete.  3 of 189 waves calculated.
+Harmonic Calculation is 3 % Complete.  6 of 189 waves calculated.
+Harmonic Calculation is 4 % Complete.  9 of 189 waves calculated.
+Harmonic Calculation is 6 % Complete.  12 of 189 waves calculated.
+Harmonic Calculation is 7 % Complete.  15 of 189 waves calculated.
+Harmonic Calculation is 9 % Complete.  18 of 189 waves calculated.
+Harmonic Calculation is 11 % Complete.  21 of 189 waves calculated.
+Harmonic Calculation is 12 % Complete.  24 of 189 waves calculated.
+Harmonic Calculation is 14 % Complete.  27 of 189 waves calculated.
+Harmonic Calculation is 15 % Complete.  30 of 189 waves calculated.
+Harmonic Calculation is 17 % Complete.  33 of 189 waves calculated.
+Harmonic Calculation is 19 % Complete.  36 of 189 waves calculated.
+Harmonic Calculation is 20 % Complete.  39 of 189 waves calculated.
+Harmonic Calculation is 22 % Complete.  42 of 189 waves calculated.
+Harmonic Calculation is 23 % Complete.  45 of 189 waves calculated.
+Harmonic Calculation is 25 % Complete.  48 of 189 waves calculated.
+Harmonic Calculation is 26 % Complete.  51 of 189 waves calculated.
+Harmonic Calculation is 28 % Complete.  54 of 189 waves calculated.
+Harmonic Calculation is 30 % Complete.  57 of 189 waves calculated.
+Harmonic Calculation is 31 % Complete.  60 of 189 waves calculated.
+Harmonic Calculation is 33 % Complete.  63 of 189 waves calculated.
+Harmonic Calculation is 34 % Complete.  66 of 189 waves calculated.
+Harmonic Calculation is 36 % Complete.  69 of 189 waves calculated.
+Harmonic Calculation is 38 % Complete.  72 of 189 waves calculated.
+Harmonic Calculation is 39 % Complete.  75 of 189 waves calculated.
+Harmonic Calculation is 41 % Complete.  78 of 189 waves calculated.
+Harmonic Calculation is 42 % Complete.  81 of 189 waves calculated.
+Harmonic Calculation is 44 % Complete.  84 of 189 waves calculated.
+Harmonic Calculation is 46 % Complete.  87 of 189 waves calculated.
+Harmonic Calculation is 47 % Complete.  90 of 189 waves calculated.
+Harmonic Calculation is 49 % Complete.  93 of 189 waves calculated.
+Harmonic Calculation is 50 % Complete.  96 of 189 waves calculated.
+Harmonic Calculation is 52 % Complete.  99 of 189 waves calculated.
+Harmonic Calculation is 53 % Complete.  102 of 189 waves calculated.
+Harmonic Calculation is 55 % Complete.  105 of 189 waves calculated.
+Harmonic Calculation is 57 % Complete.  108 of 189 waves calculated.
+Harmonic Calculation is 58 % Complete.  111 of 189 waves calculated.
+Harmonic Calculation is 60 % Complete.  114 of 189 waves calculated.
+Harmonic Calculation is 61 % Complete.  117 of 189 waves calculated.
+Harmonic Calculation is 63 % Complete.  120 of 189 waves calculated.
+Harmonic Calculation is 65 % Complete.  123 of 189 waves calculated.
+Harmonic Calculation is 66 % Complete.  126 of 189 waves calculated.
+Harmonic Calculation is 68 % Complete.  129 of 189 waves calculated.
+Harmonic Calculation is 69 % Complete.  132 of 189 waves calculated.
+Harmonic Calculation is 71 % Complete.  135 of 189 waves calculated.
+Harmonic Calculation is 73 % Complete.  138 of 189 waves calculated.
+Harmonic Calculation is 74 % Complete.  141 of 189 waves calculated.
+Harmonic Calculation is 76 % Complete.  144 of 189 waves calculated.
+Harmonic Calculation is 77 % Complete.  147 of 189 waves calculated.
+Harmonic Calculation is 79 % Complete.  150 of 189 waves calculated.
+Harmonic Calculation is 80 % Complete.  153 of 189 waves calculated.
+Harmonic Calculation is 82 % Complete.  156 of 189 waves calculated.
+Harmonic Calculation is 84 % Complete.  159 of 189 waves calculated.
+Harmonic Calculation is 85 % Complete.  162 of 189 waves calculated.
+Harmonic Calculation is 87 % Complete.  165 of 189 waves calculated.
+Harmonic Calculation is 88 % Complete.  168 of 189 waves calculated.
+Harmonic Calculation is 90 % Complete.  171 of 189 waves calculated.
+Harmonic Calculation is 92 % Complete.  174 of 189 waves calculated.
+Harmonic Calculation is 93 % Complete.  177 of 189 waves calculated.
+Harmonic Calculation is 95 % Complete.  180 of 189 waves calculated.
+Harmonic Calculation is 96 % Complete.  183 of 189 waves calculated.
+Harmonic Calculation is 98 % Complete.  186 of 189 waves calculated.
+Harmonic Calculation is 100 % Complete.  189 of 189 waves calculated.

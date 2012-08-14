@@ -1,0 +1,5 @@
+120 Out of 768 QH, Third, Fourth Freq in rad/ps and Lifetimes in ps for a 4x4x4 Ar Lattice at 10K. (atoms/UC=4)
+13.3026	-0.411234	1.08013	2.04603
+13.3026	-0.411234	1.08013	2.04603
+13.3026	-0.411234	1.08013	2.04603
+13.3026	-0.411234	1.08013	2.04603
