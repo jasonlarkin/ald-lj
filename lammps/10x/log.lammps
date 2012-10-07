@@ -22,13 +22,13 @@ Memory usage per processor = 1.67049 Mbytes
 Step Temp E_pair E_mol TotEng Press 
        0            0   -7.4507354            0   -7.4507354   -1.2896501 
        1 1.1456688e-11   -7.4507354            0   -7.4507354   -1.2896501 
-Loop time of 0.00356793 on 1 procs for 1 steps with 864 atoms
+Loop time of 0.00343394 on 1 procs for 1 steps with 864 atoms
 
-Pair  time (%) = 0.0018189 (50.979)
+Pair  time (%) = 0.00168681 (49.1217)
 Neigh time (%) = 0 (0)
-Comm  time (%) = 4.00543e-05 (1.12262)
-Outpt time (%) = 0.00167298 (46.8894)
-Other time (%) = 3.60012e-05 (1.00902)
+Comm  time (%) = 3.29018e-05 (0.958134)
+Outpt time (%) = 0.00167799 (48.8648)
+Other time (%) = 3.62396e-05 (1.05534)
 
 Nlocal:    864 ave 864 max 864 min
 Histogram: 1 0 0 0 0 0 0 0 0 0

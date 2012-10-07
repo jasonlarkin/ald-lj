@@ -8,6 +8,7 @@ LD.constant.i = sqrt(-1);
 LD.constant.c = 29979245800.00019;      %cm/s
 LD.constant.s2ps = 10E-13;
 LD.constant.ang2m = 10E-11;
+LD.constant.eV2J = 1.60217E-19;
 
 format long
 
@@ -198,6 +199,10 @@ plot(LD.FC2.phi)
 %--------------------------------------------------------------------------
 %pause  
 %-------------------------------------------------------------------------- 
+
+lj = m_lj;
+
+LD.FC2.phi = LD.FC2.phi*lj.eps/lj.sigma / LD.constant.eV2J * LD.constant.ang2m;
 
 
 dlmwrite('./PHI2.dat',LD.FC2.phi','delimiter',' ','precision', '%10.5f');
